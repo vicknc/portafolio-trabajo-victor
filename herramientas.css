@@ -1,0 +1,682 @@
+/* Add styles here */
+
+:root {
+    /* here variables goes */
+    --color-primary: #FF8906;
+  }
+  
+   
+  /* colores */
+  :root {
+  --color-secundary: #0F0E17;
+  
+  }
+  
+  :root {
+    --color-terciary: #D9D9D9;
+  }
+  
+  div.cuerpo {
+    background-color: var(--color-secundary);
+  }
+  
+  /* importar bootstrap */
+  @import '~bootstrap/dist/css/bootstrap.min.css';
+  
+  body.pagina {
+    background-color: #0F0E17;
+  }
+  /* tipografias */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+  @import url(Noto_Sans/static/NotoSans-Regular.ttf);
+  @import url(Playwrite_IT_Moderna/static/PlaywriteITModerna-Regular.ttf);
+  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  /* tipografias */
+  
+  .noto-sans-uniquifier {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  
+  
+  .playwrite-it-moderna-uniquifier {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amaranth-regular {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amaranth-bold {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .amaranth-regular-italic {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .amaranth-bold-italic {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  
+  /* aplicacion de tipografias */
+  h1.nombre {
+    font-family: "Amaranth", Regular 400 at 48px;
+    font-size: 300%;
+    font-style: normal;
+    color: #ffff ;
+  }
+  
+  h2.secciones {
+    font-size: 300%;
+    font-family: 'Aramanth', Regular 400 at 24px;
+    font-style: normal
+    color var(--color-terciary);
+  }
+  
+  p.digitales {
+    font-family: 'Amaranth', Regular 400 ;
+    font-size: 200%;
+    font-style: normal;
+    color: var(--color-terciary);
+  }
+  
+  p.presentacion {
+    font-family: "Amaranth", Regular 400 at 21px;
+    font-size: 150%;
+    font-style: normal;
+    color: #ffff;
+  }
+  
+  p.descripciones {
+    font-family: "Amaranth", Regular 400 at 21px;
+    font-size: 150%;
+    font-style: normal;
+    color: #ffff;
+  }
+  
+  
+  h3.Contacto {
+    font-family: "Amaranth", Regular 400 at 21px;
+    font-size: 150%;
+    font-style: normal;
+    color: var(--color-terciary);
+  }
+  
+  p.contacto {
+    font-family: "Amaranth", Regular 400 at 21px;
+    font-size: 150%;
+    font-style: normal;
+    color: var(--color-terciary);
+  }
+  
+  /* estilos de imagen */
+  img.imgHerramientas {
+    border-radius: 50%;
+    max-width: 20%;
+  }
+  
+  img.imgPerfil { 
+    border-radius: 100%;
+  }
+  
+  img.imgLogo {
+    size: 50%  ;
+  }
+  
+  img.imgDescripcion {
+    border-radius: 100px;
+  }
+  
+  img.imgProyectos {
+    border-radius: 100px;
+  }
+  
+  
+  img.imgProyectos1 {
+    border-radius: 100px;
+  }
+  
+  
+  img.imgEscuelas {
+    border-radius: 100%;
+    size: 200px 200px;
+  }
+  
+  img.imgPasiones {
+    border-radius: 100%;
+  }
+  
+  img.imgContactos {
+    border-radius: 100%;
+  }
+  
+  img.imgRelleno {
+    border-radius: 2vw;
+    width: 15vw;
+    height: 12vw;
+    padding: 0.5vw;
+  }
+  
+  img.imgRelleno2 {
+    border-radius: 2vw;
+    width: 15vw;
+    height: 18vw;
+    padding: 0.5vw;
+  }
+  
+  
+  /*ICONOS COLOR*/
+  
+  i.bi-c-circle {
+    color: #ffff;
+    flex-direction: flex-end;
+  }
+  
+  
+  /* estilo de perfil */
+  
+  img.imgFondo {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    z-index: -1;
+    container: 50px 200px;
+  }
+  
+  
+  img.imgPerfil {
+    position: absolute;
+    top: 250px;
+    right: 2px;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    z-index: auto;
+  }
+  
+  /* estilo de barra de navegacion */ 
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+  }
+  
+  @media all and (max-width: 600px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: right;
+    text-align:center;
+  }
+  }
+  
+  nav.barraNavegacion {
+    z-index: 1;
+  }
+  
+  h1.nombre {
+    position: absolute;
+    z-index: auto;
+    top: 200px;
+    left: 25px;
+  }
+  
+  div.p1 {
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 25px;
+  }
+  
+  .descripcionInicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .descripcionInicial section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .imgInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .imgDescripcion {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .descripcion {
+    text-align: center;
+    width: 500px;
+    height: 48px;
+    color:#ffff;
+    font-size: 1vw;
+  }
+  
+  p.descripciones1 {
+    text-align: justify;
+    width: 650px;
+    font-size: 21px;
+    padding: 48px;
+    color: #ffff;
+  }
+  
+  
+  
+  p.descripciones {
+    text-align: justify;
+    width: 650px;
+    font-size: 17px;
+    padding-left: 48px;
+    color: #ffff;
+  }
+  
+
+  .secciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: #ffff;
+    margin-bottom: 3vw;
+  }
+
+  p.digitales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    color: #ffff;
+    font-size: 50px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+
+  
+
+.imgR {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vw;
+}
+  
+.rectangulo {
+  background-color: #FF8906;
+  width: 90%;
+  height: 1vw;
+  justify-content: center;
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+}
+
+.footer {
+  display: flex;
+  background-color: var(--color-terciary);
+  height: 1.7vw;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/*ayuda de la ia*/
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/*.........................*/
+
+img.imgHerramientas {
+  max-width: 30vw;
+  height: auto;
+}
+
+.ACAD {
+  display: flex;
+  width: auto;
+  background-color: #E51050;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.AI {
+  display: flex;
+  width: auto;
+  background-color: #FF9A00;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.MAX {
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: #36687F;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.AE {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.ASPIRE {
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: #C73541;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.AE {
+  display: flex;
+  width: auto;
+  background-color: #9999FF;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.CURA {
+  display: flex;
+  width: auto;
+  background-color: #1766DD;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.CANVA {
+  display: flex;
+  width: auto;
+  background-color: #5053E6;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.ICONS8 {
+  display: flex;
+  width: auto;
+  background-color: #44BF62;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.PS {
+  display: flex;
+  width: auto;
+  background-color: #0E314D;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.SHARP3D {
+  display: flex;
+  max-width: auto;
+  background-color: #5779F1;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.GIMP {
+  display: flex;
+  width: auto;
+  background-color: #4D4637;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.INKSCAPE {
+  display: flex;
+  max-width: auto;
+  background-color: #1b1b1b;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.FIGMA {
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: #10719C;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.WRD {
+  display: flex;
+  width: auto;
+  background-color: #103F91;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+
+.VENICE {
+  display: flex;
+  max-width: auto;
+  background-color: #000000;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1.5vw;
+  padding: 0.5vw;
+}
+
+.SUNO {
+  display: flex;
+  width: auto;
+  background-color: #000000;
+  border-radius: 150vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+
+.nav-link:hover {
+  border-radius: 150vw;
+  background-color: #FF8906;
+  color: #000000;
+  border:2px solid #000000;
+}
+
+@media all and (max-width: 600px) {
+
+  .footer {
+    display: flex;
+    height: 5vh; 
+    position: fixed;
+    bottom: 0;
+  }
+
+  section.desc123 {
+    padding-top: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .txt {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
+
+  p.descripciones {
+    max-width:90%;
+    justify-content: left;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  div.text {
+    display: flex;
+    width: 100%;
+    background-color: #103F91;
+  }
+
+  div.imgR {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+  }
+   
+  img.imgRelleno {
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 150vw;
+  }
+
+  img.imgRelleno2 {
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 150vw;
+  }
+
+  img.imgHerramientas {
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    align-items: center;
+  }
+ 
+  .container2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  p.digitales {
+    font-size: 6vw;
+  }
+
+  h2.secciones {
+    font-size: 30px;
+  }
+}
+
+.content1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center; 
+}
+
+div.text {
+  display: flex;
+  width: 50vw;
+  margin-top: 5vw;
+}
+
+.imgR {
+  display: flex;
+  flex-direction: column; 
+}

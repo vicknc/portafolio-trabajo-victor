@@ -1,0 +1,296 @@
+/* Add styles here */
+
+:root {
+    /* here variables goes */
+    --color-primary: #FF8906;
+  }
+  
+   
+  /* colores */
+  :root {
+  --color-secundary: #0F0E17;
+  
+  }
+  
+  :root {
+    --color-terciary: #D9D9D9;
+  }
+  
+  /* importar bootstrap */
+  @import '~bootstrap/dist/css/bootstrap.min.css';
+ 
+ /* tipografias */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+  @import url(Noto_Sans/static/NotoSans-Regular.ttf);
+  @import url(Playwrite_IT_Moderna/static/PlaywriteITModerna-Regular.ttf);
+  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  /* tipografias */
+  
+  .noto-sans-uniquifier {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  
+  
+  .playwrite-it-moderna-uniquifier {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amaranth-regular {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amaranth-bold {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .amaranth-regular-italic {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .amaranth-bold-italic {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  
+
+ body {
+  background-color: var(--color-secundary);
+ } 
+  
+
+  /* aplicacion de tipografias */
+  h1.nombre {
+    font-family: "Amaranth", Regular 400 at 48px;
+    font-size: 300%;
+    font-style: normal;
+    color: #ffff ;
+  }
+  
+  h2.secciones {
+    font-size: 300%;
+    font-family: 'Aramanth', Regular 400 at 24px;
+    font-style: normal;
+    color: var(--color-terciary);
+  }
+  
+  p.digitales {
+    font-family: 'Amaranth', Regular 400 ;
+    font-size: 200%;
+    font-style: normal;
+    color: var(--color-terciary);
+  }
+  
+  p.presentacion {
+    font-family: "Amaranth", Regular 400 at 21px;
+    font-size: 150%;
+    font-style: normal;
+    color: #ffff;
+  }
+  
+  p.descripciones {
+    font-family: "Amaranth", Regular 400 at 21px;
+    font-size: 150%;
+    font-style: normal;
+    color: #ffff;
+  }
+  
+  
+
+  /* estilos de imagen */
+ 
+  img.imgProyectos {
+    border-radius: 100vw;
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+  }
+
+  
+  img.imgProyectos1 {
+    border-radius: 100vw;
+    width: 13vw;
+    height: 13vw;
+    object-fit: cover;
+  }
+  
+  
+div.proyectosIMG {
+  display: flex;
+  justify-content: center;
+}
+  
+.container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vw;
+}
+
+
+
+ 
+.container1 {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  justify-content: center;
+  size: 60%;
+  justify-content: space-evenly;
+}
+
+div.imgP {
+  display: flex;
+  flex-direction: column;
+  flex-direction: space-evenly;
+}
+
+div.DESC {
+  display: flex;
+  width: 40vw;
+}
+  /*ICONOS COLOR*/
+  
+
+  
+  /* estilo de perfil */
+  
+ 
+  /* estilo de barra de navegacion */ 
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+  }
+  
+  @media all and (max-width: 600px) {
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      justify-content: right;
+      text-align:center;
+    }
+  }
+  
+  nav.barraNavegacion {
+    z-index: 1;
+  }
+  
+  .rectangulo {
+    background-color: #FF8906;
+    width: 90%;
+    height: 1vw;
+    justify-content: center;
+    margin-left: 5vw; 
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+ .secciones {
+  display: flex;
+  justify-content: center;
+ }
+ .footer {
+  display: flex;
+  background-color: var(--color-terciary);
+  height: 1.7vw;
+  margin-top: 5vw;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+
+.nav-link:hover {
+  border-radius: 150vw;
+  background-color: #FF8906;
+  color: #000000;
+  border:2px solid #000000;
+}
+
+
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(3,25vw);
+  gap: 5vw;
+  width: 100%;
+  padding: 1vw;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+
+@media all and (max-width: 600px) {
+
+  .footer {
+    display: flex;
+    height: 5vh;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .desc {
+    display: flex;
+    width: 80%;
+    font-size: 9px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  .imgP{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 8vw;
+  }
+
+  .imgPro {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  img.imgProyectos1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100vw;
+    object-fit: cover;
+  }
+}
