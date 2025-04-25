@@ -119,6 +119,9 @@
     font-size: 150%;
     font-style: normal;
     color: #ffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   
